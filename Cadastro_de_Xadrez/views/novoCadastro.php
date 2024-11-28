@@ -13,6 +13,10 @@
             <input type="text" class="form-control" id="ganhador" name="ganhador" required>
         </div>
         <div class="mb-3">
+            <label for="exampleInputText1" class="form-label">Perdedor</label>
+            <input type="text" class="form-control" id="perdedor" name="perdedor" required>
+        </div>
+        <div class="mb-3">
             <label for="exampleInputText1" class="form-label">Data</label>
             <input type="text" class="form-control" id="data_partida" name="data_partida">
         </div>
@@ -23,7 +27,7 @@
     <style>
     
     .tint-color2 {
-        background-color: #371b07;
+        background-color: #69923e;
     }
     
     </style>

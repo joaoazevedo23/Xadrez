@@ -9,11 +9,12 @@
     <br><br><br>
     <div>
         
-        <table id="table_id" class="table table-dark table-striped-columns">
+        <table id="table_id" class="table table-light table-striped-columns">
             <thead>
                 
                 <tr>
                     <th>Quem Ganhou?</th>
+                    <th>Quem Perdeu?</th>
                     <th>Data</th>
                     <th>Ações</th>
                 </tr>
@@ -23,6 +24,7 @@
                 <?php
                 while ($linha = mysqli_fetch_array($consultaCadastro)) {
                     echo '<tr><td style="word-wrap: break-word">' . $linha['ganhador'] . '</td>';
+                    echo '<td style="word-wrap: break-word">' . $linha['perdedor'] . '</td>';
                     echo '<td style="word-wrap: break-word">' . $linha['data_partida'] . '</td>';
                     echo '<td> 
 
