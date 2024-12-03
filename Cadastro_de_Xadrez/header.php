@@ -29,6 +29,11 @@
                 <div class="tint-color2 p-4">
                     <h5 class="text-white h4">Cadastros de Xadrez <span class="text-muted">Official</span></h5>
                     <div>
+                        <a href="?pagina=inicial" class="linkMenu">
+                            Home
+                        </a>
+                    </div>
+                    <div>
                         <a href="?pagina=cadastros" class="linkMenu">
                             Cadastros
                         </a>
@@ -37,11 +42,6 @@
                         <!--<a href="?pagina=faixas" class="linkMenu">
                             Faixas
                         </a>-->
-                    </div>
-                    <div>
-                        <a href="?pagina=inicial" class="linkMenu">
-                            Home
-                        </a>
                     </div>
                     <div>
                         <a href="logout.php" class="linkMenu">
