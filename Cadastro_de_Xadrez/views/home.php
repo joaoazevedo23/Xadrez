@@ -25,4 +25,13 @@
             ';
         }
     ?>
+
+<style>
+    .caixa {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+    }
+</style>
 </div>

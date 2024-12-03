@@ -18,7 +18,7 @@
         </div>
         <div class="mb-3">
             <label for="exampleInputText1" class="form-label">Data</label>
-            <input type="text" class="form-control" id="data_partida" name="data_partida">
+            <input type="date" class="form-control" id="data_partida" name="data_partida">
         </div>
         <!--Botão Cadastrarr-->
         <button type="submit" class="btn tint-color2" style="color: white;">Cadastrar</button>
